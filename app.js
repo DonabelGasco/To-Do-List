@@ -10,9 +10,6 @@ VIEWS USED:
 index.ejs (view tasks)
 new.ejs (add new task form)
 edit.ejs    (edit/update form)
-
-*tama ba to?
-*baka mali?
 */
 
 const express = require('express'); // Import express.js module
