@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List: Add New Task</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">ADD NEW TASK</h1>
+                    <form action="/tasks" method="post">
+                        <div class="form-group">
+                            <input type="text" name="task" class="form-control" required>
+                            <button type="submit" class="btn btn-custom">ADD TASK</button>
+                        </div>    
+                    </form>
+                    <a href="/tasks" class="btn btn-secondary mt-3">BACK TO LIST</a>                 
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
+<!--view for creating new tasks-->
